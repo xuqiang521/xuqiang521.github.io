@@ -1,0 +1,70 @@
+# Basic
+title: qiangdada
+subtitle: 个人技术站
+description: 欢迎来到 qiangdada 的个人技术站 ~
+# 头像里面的标题
+avatarTitle: qiangdada
+# 头像里面的描述
+avatarDesc: 前端开发 / MeiTuan
+url: "http://xuqiang521.github.io"
+
+# Comment
+comment:
+    disqus: qiangdada
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    # weibo: 5366874726 
+    github: xuqiang521
+    # twitter: 
+    mail: feqdd@outlook.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: d1afbc968f72f7c6d5e26b252698f58a  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+# ga:
+#     # id: UA-84134159-3   
+#     host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  👍 github地址： https://github.com/xuqiang521/xuqiang521.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate, jekyll-sitemap]
+paginate: 10
+paginate_path: "page/:num/"
+
+
