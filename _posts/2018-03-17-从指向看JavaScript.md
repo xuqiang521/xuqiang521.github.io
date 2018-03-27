@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "从指向看JavaScript"
+title: "从指向看 JavaScript"
 date: 2018-03-17 
 description: "this?原型/原型链？继承？闭包？我们不妨从指向这个概念去理解JavaScript中的这些点！"
 tag: 合格前端
